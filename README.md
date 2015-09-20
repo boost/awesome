@@ -25,7 +25,7 @@ Guides on setting up common development environments.
 - [Vagrant](workflow/vagrant.md)
 - [Docker](workflow/docker.md)
 - [Chef](workflow/chef.md)
-- [Chef](workflow/bluemix.md)
+- [Bluemix](workflow/bluemix.md)
 
 
 [Boost]: http://boost.co.nz
