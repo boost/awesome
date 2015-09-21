@@ -27,6 +27,8 @@ Guides on setting up common development environments.
 - [Chef](workflow/chef.md)
 - [Bluemix](workflow/bluemix.md)
 
+----
+
 ### Resources
 Books, articles, blogs and videos
 
@@ -39,8 +41,6 @@ Books, articles, blogs and videos
 [Boost]: http://boost.co.nz
 
 <br>
-
-----
 
 :copyright: 2015, [Boost]. Released under MIT License.<br>
 Feel free to reuse this list for your own team!
