@@ -27,6 +27,14 @@ Guides on setting up common development environments.
 - [Chef](workflow/chef.md)
 - [Bluemix](workflow/bluemix.md)
 
+### Resources
+Books, articles, blogs and videos
+
+- [Books](resources/books.md)
+- [Articles](resources/articles.md)
+- [Blog](resources/blog.md)
+- [Videos](resources/videos.md)
+
 
 [Boost]: http://boost.co.nz
 
