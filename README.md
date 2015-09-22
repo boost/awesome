@@ -42,5 +42,4 @@ Books, articles, blogs and videos
 
 <br>
 
-:copyright: 2015, [Boost]. Released under MIT License.<br>
 Feel free to reuse this list for your own team!
