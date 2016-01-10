@@ -15,3 +15,6 @@ To get changes into master they must go through a Pull Request, this is an enfor
 4. If you're just putting it up for review and it isn't ready to me merged yet specify this in the PR description
 5. Assign the PR to the person you wish to review it
 6. Once the person you have assigned to review it has completed the review and all the changes they have requested have been made they will merge the branch into master
+
+## .gitignore
+Depending on your project, you can use gitignore [templates](https://github.com/github/gitignore) from GitHub. 
