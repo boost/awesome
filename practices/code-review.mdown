@@ -5,7 +5,7 @@ Code review is a process by which developers review and evaluate each other’s 
 ## What is a reviewer looking for?
 
 1. Understand what the requirement behind the commit pull request.
-2. Code is readablewithout the help of the author.
+2. Code is readable without the help of the author.
 3. All tests are passing.
 4. Spec coverage for the part which is being reviewed.
 5. Documentation for new methods. Yard for Ruby.
