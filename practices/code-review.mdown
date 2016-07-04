@@ -29,5 +29,5 @@ Code review is a process by which developers review and evaluate each other’s 
 ## What not to do?
 
 1. Dont assume that the programmer know more or less than you.
-2. Be receptive. If you find a new way of doing talk to the programmer and find out what that is.
+2. Be receptive. If you find a new way of doing something, talk to the programmer and find out what that is.
 3. Dont ask the programmer to fix something which is outside the scope of his story.
