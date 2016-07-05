@@ -10,18 +10,7 @@ Use SCSS for your CSS goodness:
 
 http://sass-lang.com/
 
-##Folder Structure:
-
-Ideally what we should be doing when we are doing our front end is looking at the whole design and cutting sections into reusable modular blocks. We can then reference elements and modifiers within the block. This then should eliminate problems with inheritance and specificity.
-
-An element being an element within a block, name these with __
-
-IE a header with a nav inside of it would be .header__nav
-
-A modifier is an existing element that has a modified state, ie a button element block could have a red modifier.
-Modifiers should be named with --
-
-IE. .button, .button--red
+# Folder Structure:
 
 Note that files that are to be included in app.scss should be prefixed with an '_'. This prevents the file from being compiled individually.
 
@@ -82,6 +71,18 @@ vendor/
     }
 }
 
+# Naming Approach
+
+Ideally what we should be doing when we are doing our front end is looking at the whole design and cutting sections into reusable modular blocks. We can then reference elements and modifiers within the block. This then should eliminate problems with inheritance and specificity.
+
+An element being an element within a block, name these with __
+
+IE a header with a nav inside of it would be .header__nav
+
+A modifier is an existing element that has a modified state, ie a button element block could have a red modifier.
+Modifiers should be named with --
+
+IE. .button, .button--red
 
 # Example
 
@@ -125,7 +126,7 @@ vendor/
   }
 }
 
-# THIS WILL GENERATE THE FOLLOWING CSS
+# This will generate the folliwng CSS
 
 .header {
   height: 200px;
