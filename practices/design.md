@@ -102,6 +102,9 @@ IE. .button, .button--red
 
 # SCSS
 
+$red: #FF0000;
+$grey: #ccc;
+
 .header {
   height: 200px;
 
@@ -137,7 +140,7 @@ IE. .button, .button--red
 }
 
 .header__content {
-  color: red;
+  color: #FF0000;
 }
 
 .header__content__list {
@@ -149,5 +152,5 @@ IE. .button, .button--red
 }
 
 .header__content__list__item--active {
-  color: red;
+  color: #FF0000;
 }
