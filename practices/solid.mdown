@@ -1,0 +1,134 @@
+# SOLID Principles
+
+- S: Single Responsibility
+- O: Open Closed
+- L: Liskov Substitution
+- I: Interface Segregation
+- D: Dependency Inversion
+
+## Single Responsibility
+One entity should do only one thing. Or deal with one kind of thing.
+
+## Open Closed
+Objects or entities should be open for extension but closed for modification.
+``` 
+class Shape
+  attr_accessor :name
+
+  def initialize(name)
+    @name = name
+  end
+
+  def area
+    If @name == :square
+      length * length  
+    elsif @name == :circle 
+      Pi * radius * radius
+    else
+      Something
+    end 
+  end
+ end
+```
+The above is wrong. The right way to do it is as follows
+```
+class Shape
+  all the common methods that evry shape needs
+end
+
+class Square < Shape
+  def area
+    length * length
+  end
+end
+
+class Circle < Shape
+  def area
+    pi * r * r
+  end
+end
+```
+
+## Liskov Substitution
+Let q(x) be a property provable about objects of x of type T. Then q(y) should be provable for objects y of type S where S is a subtype of T.
+
+```
+  user = User.new(user_params)
+  user.valid? #=> true
+
+  admin = User.new(admin_params)
+  admin.valid? #=> true  
+```
+Admin is a Subtype of User. And thus both of them were able to satisfy the same method in a class.
+
+## Interface Segregation
+A client should never be forced to implement an interface that it doesn’t use or clients shouldn’t be forced to depend on methods they do not use.
+
+```
+class PersonInterface
+  def age
+    current_year - birth_year
+  end
+  
+  def salary
+    calculate_salary
+  end
+  
+  private
+  def calculate_salary
+  end
+end
+```
+The principle is violated if some Persons are a high school students and dosent have salary. The right approach is to have separate a Person with salary and Person without salary.
+
+
+## Dependency Inversion
+Entities must depend on abstractions not on concretions. It states that the high level module must not depend on the low level module, but they should depend on abstractions.
+
+```
+class NewsPerson
+  def broadcast(news)
+    Newspaper.new.print(news)
+  end
+end
+
+class Newspaper
+  def print(news)
+    puts news
+  end
+end
+
+laura = NewsPerson.new
+laura.broadcast("Some Breaking News!") # => "Some Breaking News!"
+```
+Here NewsPerson is dependent on a lower level module NewsPaper. If the progarmmer descides to implement another way of broadcasting news like Telivision, NewsPerson will have to be modified to accomodate Telivision. Better way of implementing this is buy abstracting the platform which the NewsPerson uses to broadcast news.
+
+```
+class NewsPerson
+  def broadcast(news, platform = Newspaper)
+    platform.new.broadcast(news)
+  end
+end 
+
+class Newspaper
+  def broadcast(news)
+    do_something_with news
+  end
+end
+
+class Twitter
+  def broadcast(news)
+    tweets news
+  end
+end
+
+class Television
+  def broadcast(news)
+    live_coverage news
+  end
+end 
+
+laura = NewsPerson.new
+laura.broadcast("Breaking news!") #do_something_with "Breaking news!"
+laura.broadcast("Breaking news!", Twitter) #tweets "Breaking news!"
+```
