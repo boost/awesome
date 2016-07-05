@@ -10,7 +10,7 @@ Code review is a process by which developers review and evaluate each other’s 
 4. Spec coverage for the part which is being reviewed.
 5. Documentation for new methods. Yard for Ruby.
 6. Check if standard styling for the language is followed.
-7. Check if SOLID.
+7. Check if SOLID. Find out SOLID in solid documentation in practices.
 8. Check for logical errors.
 9. Check for old syntaxes. 
 
