@@ -23,10 +23,15 @@ Modifiers should be named with --
 
 IE. .button, .button--red
 
+Note that files that are to be included in app.scss should be prefixed with an '_'. This prevents the file from being compiled individually.
+
 blocks/
   - _header.scss
 mixins/
   - _bem.scss
+modules/
+  - _colors.scss
+  - _utility.scss
 partials/
   - _base.scss
   - _typography.scss
@@ -80,6 +85,68 @@ vendor/
 
 # Example
 
+# HTML
+
 <div class='header'>
   <img src='' class='header__logo' />
+  <div class='header__content'>
+    <p class='header__content__description'></p>
+    <ul class='header__content__list'>
+      <li class='header__content__item header__content__item--active'>Item</li>
+      <li class='header__content__item'>Item</li>
+      <li class='header__content__item'>Item</li>
+    </ul>
+  </div>
 </div>
+
+# SCSS
+
+.header {
+  height: 200px;
+
+  @include element('logo') {
+    width: 100%;
+  }
+
+  @include element('content') {
+    color: $red;
+
+    @include element('list') {
+      display: inline-block;
+
+      @include element('item') {
+        color: $grey;
+
+        @include modifier('active') {
+          color: $red;
+        }
+      }
+    }
+  }
+}
+
+# THIS WILL GENERATE THE FOLLOWING CSS
+
+.header {
+  height: 200px;
+}
+
+.header__logo {
+  width: 100%;
+}
+
+.header__content {
+  color: red;
+}
+
+.header__content__list {
+  display: inline-block;
+}
+
+.header__content__list__item {
+  color: #ccc;
+}
+
+.header__content__list__item--active {
+  color: red;
+}
