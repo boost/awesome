@@ -17,4 +17,7 @@ To get changes into master they must go through a Pull Request, this is an enfor
 6. Once the person you have assigned to review it has completed the review and all the changes they have requested have been made they will merge the branch into master
 
 ## .gitignore
-Depending on your project, you can use gitignore [templates](https://github.com/github/gitignore) from GitHub. 
+Depending on your project, you can use gitignore [templates](https://github.com/github/gitignore) from GitHub.
+
+## Style guide
+[Agis Git Stlyeguide](https://github.com/agis-/git-style-guide)
