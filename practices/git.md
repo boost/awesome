@@ -37,17 +37,17 @@ Use the template below for our commit messages. To create a global template for 
 - Paste the code below and save it
 
 ```
-Why:
-
-*
-
-This change addresses the need by:
-
-*
-
 # 50-character subject line
 #
 # 72-character wrapped longer description.
+#
+# Example:
+#
+# Good - imperative present tense, capitalized, fewer than 50 characters
+# Mark huge records as obsolete when clearing hinting faults
+#
+# Bad
+# fixed ActiveModel::Errors deprecation messages failing when AR was used outside of Rails.
 ```
 
 - Update your global `~/.gitconfig` file by adding:
