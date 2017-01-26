@@ -2,14 +2,19 @@
 
 Master branch is always marked as a protected branch, with the Travis and Reviewable status checks enforced for PRs
 
-## Branching Model
-When a new story is started a branch is created in the following format: initials/story-name  
-This is required for _ALL_ stories, no matter how small because master is always a protected branch
+## Branching
 
-## Merging into master
+When a new story is started a branch is created in the following format: `initials/story-name`
+
+    $ git checkout -b ba/homepage-redesign
+
+This is required for _ALL_ stories, no matter how small because `master` is always a protected branch
+
+## Merging into master branch
+
 To get changes into master they must go through a Pull Request, this is an enforced part of the workflow with the Github Protected Branches & Status Checks.
 
-1. Rebase your changes to clean up the Git history. This is only needed if you have commits like "hopfully fixes x, hopefully fixes x more" etc, commits like these should be squashed into a singular commit. 
+1. Rebase your changes to clean up the Git history. This is only needed if you have commits like "hopfully fixes x, hopefully fixes x more" etc, commits like these should be squashed into a singular commit.
 2. Push your changes to Github
 3. Open a Pull Request against master
 4. If you're just putting it up for review and it isn't ready to me merged yet specify this in the PR description
@@ -17,7 +22,37 @@ To get changes into master they must go through a Pull Request, this is an enfor
 6. Once the person you have assigned to review it has completed the review and all the changes they have requested have been made they will merge the branch into master
 
 ## .gitignore
-Depending on your project, you can use gitignore [templates](https://github.com/github/gitignore) from GitHub.
+
+Depending on your project, you can use official gitignore [templates](https://github.com/github/gitignore) from GitHub.
 
 ## Style guide
-[Agis Git Stlyeguide](https://github.com/agis-/git-style-guide)
+
+- [Agis Git Stlyeguide](https://github.com/agis-/git-style-guide)
+
+## Commit messages
+
+Use the template below for our commit messages. To create a global template for your machine:
+
+- Create a file called `.gitmessage` under `~/` path.
+- Paste the code below and save it
+
+```
+Why:
+
+*
+
+This change addresses the need by:
+
+*
+
+# 50-character subject line
+#
+# 72-character wrapped longer description.
+```
+
+- Update your global `~/.gitconfig` file by adding:
+
+```
+[commit]
+  template = ~/.gitmessage
+```
