@@ -7,7 +7,7 @@ As a Rails devs we prefer to use `whenever` gem for setting up cron for projects
 Not all of us remember Cron syntax. You can generate your cron syntax from [crontab guru](https://crontab.guru). 
 
 ## Human readable
-Cron expressions are nit human super readable. So make sure that each cron config is commented in your schedule.rb file.
+Cron expressions are not human super readable. So make sure that each cron config is commented in your schedule.rb file.
 
 Example:
 
