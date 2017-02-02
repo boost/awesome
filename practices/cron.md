@@ -11,12 +11,14 @@ Cron expressions are nit human super readable. So make sure that each cron confi
 
 Example:
 
->  # At 11:57 pm everyday
->  every '57 23 * * *' do
->    runner 'ExampleWorker.perform_async'
->  end
+```ruby
+ # At 11:57 pm everyday
+  every '57 23 * * *' do
+    runner 'ExampleWorker.perform_async'
+  end
 
->  # At 20:30 on Tuesday
->  every '30 20 * * 2' do
->    runner 'AnotherExampleWorker.perform_async'
->  end
+  # At 20:30 on Tuesday
+  every '30 20 * * 2' do
+    runner 'AnotherExampleWorker.perform_async'
+  end
+```
