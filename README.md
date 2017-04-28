@@ -10,6 +10,7 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 - [Rails](practices/rails.md) - Makes the world go 'round
 - [Testing](practices/testing.md) - Detailed Rspec and TDD practices
 - [iOS](practices/ios.md) - Xcode Swift development
+- [Web Accessibility](practices/web-accessibility.md) - Web Accessibility
 
 ----
 
