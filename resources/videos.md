@@ -15,3 +15,7 @@ Add an item on top (newest first). Feel free to create sections as needed. We ha
 
 ## Ruby
 - [Build a Ruby Gem](http://brandonhilkert.com/books/build-a-ruby-gem/)
+
+## LearnTube Videos
+- [Rails Stuff by Aaron Patterson](https://www.youtube.com/watch?v=JMGmaRZtgM8)
+- [Beauty of Bad Code by Raquel Velez](https://www.youtube.com/watch?v=2qW-uqFl2X0) 
