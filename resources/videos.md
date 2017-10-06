@@ -17,12 +17,14 @@ Add an item on top (newest first). Feel free to create sections as needed. We ha
 - [Build a Ruby Gem](http://brandonhilkert.com/books/build-a-ruby-gem/)
 
 ## LearnTube Videos
+### Watched
 - [Rails Stuff by Aaron Patterson](https://www.youtube.com/watch?v=JMGmaRZtgM8)
 - [Rails Keynotes 2017 by DHH](https://www.youtube.com/watch?v=Cx6aGMC6MjU&t=1236s)
 - [Beauty of Bad Code by Raquel Velez](https://www.youtube.com/watch?v=2qW-uqFl2X0)
 - [Rails 5.1: Awesome Features and Breaking Changes by Claudio B](https://www.youtube.com/watch?v=9CWjFtCbrrM)
 - [RailsConf 2017: Building Rails ActionDispatch::SystemTestCase Framework by Eileen Uchitelle](https://www.youtube.com/watch?v=sSn4B8orX70)
 - [Unit Test vs Integration Test](https://medium.com/humans-create-software/unit-tests-vs-integration-tests-d6358982a03e)
+### Not Watched
 - [ReactJS Facebook Licensing](https://www.youtube.com/watch?v=hnHsZQ1JDII)
 
 ## Rails
