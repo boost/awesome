@@ -24,9 +24,9 @@ Add an item on top (newest first). Feel free to create sections as needed. We ha
 - [Rails 5.1: Awesome Features and Breaking Changes by Claudio B](https://www.youtube.com/watch?v=9CWjFtCbrrM)
 - [RailsConf 2017: Building Rails ActionDispatch::SystemTestCase Framework by Eileen Uchitelle](https://www.youtube.com/watch?v=sSn4B8orX70)
 - [Unit Test vs Integration Test](https://medium.com/humans-create-software/unit-tests-vs-integration-tests-d6358982a03e)
+- [Code smell & Refacoring by Sandy Metz](https://www.youtube.com/watch?v=D4auWwMsEnY)
 ### Not Watched
 - [ReactJS Facebook Licensing](https://www.youtube.com/watch?v=hnHsZQ1JDII)
-- [Code smell & Refacoring by Sandy Metz](https://www.youtube.com/watch?v=D4auWwMsEnY)
 - [Magic tricks of testing by Sandy Metz](https://www.youtube.com/watch?v=URSWYvyc42M)
 
 ## Rails
