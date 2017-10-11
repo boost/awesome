@@ -1,4 +1,5 @@
-# :thumbsup: Awesome Boost
+![Boost Logo](https://raw.githubusercontent.com/boost/awesome/master/logo.png)
+# Awesome
 
 ### Our practices
 This is a list of things to prefer and avoid in projects. These practices are a result of trials-and-errors across many [Boost] projects. We've learned what works and what doesn't, and these are the lessons that stuck.
