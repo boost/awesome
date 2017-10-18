@@ -25,9 +25,9 @@ Add an item on top (newest first). Feel free to create sections as needed. We ha
 - [RailsConf 2017: Building Rails ActionDispatch::SystemTestCase Framework by Eileen Uchitelle](https://www.youtube.com/watch?v=sSn4B8orX70)
 - [Unit Test vs Integration Test](https://medium.com/humans-create-software/unit-tests-vs-integration-tests-d6358982a03e)
 - [Code smell & Refacoring by Sandy Metz](https://www.youtube.com/watch?v=D4auWwMsEnY)
+- [Magic tricks of testing by Sandy Metz](https://www.youtube.com/watch?v=URSWYvyc42M)
 ### Not Watched
 - [ReactJS Facebook Licensing](https://www.youtube.com/watch?v=hnHsZQ1JDII)
-- [Magic tricks of testing by Sandy Metz](https://www.youtube.com/watch?v=URSWYvyc42M)
 
 ## Rails
 - [Creating a Rakefile for publishing to Wordpress](http://www.virtuouscode.com/2017/02/28/tuesday25-creating-a-rakefile-for-publishing-to-wordpress/)
