@@ -27,7 +27,7 @@ Add an item on top (newest first). Feel free to create sections as needed. We ha
 - [Code smell & Refacoring by Sandy Metz](https://www.youtube.com/watch?v=D4auWwMsEnY)
 - [Magic tricks of testing by Sandy Metz](https://www.youtube.com/watch?v=URSWYvyc42M)
 ### Not Watched
-- [New in Ruby 2.4](https://www.youtube.com/watch?v=aUnBQQf8oxA)
+- [Does programmers needs to be nice?](https://www.youtube.com/watch?v=J9OpTNk0hYc)
 - [ReactJS Facebook Licensing](https://www.youtube.com/watch?v=hnHsZQ1JDII)
 
 ## Rails
