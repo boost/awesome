@@ -29,6 +29,8 @@ Add an item on top (newest first). Feel free to create sections as needed. We ha
 ### Not Watched
 - [Does programmers needs to be nice?](https://www.youtube.com/watch?v=J9OpTNk0hYc)
 - [ReactJS Facebook Licensing](https://www.youtube.com/watch?v=hnHsZQ1JDII)
+- [Whose turn is it anyway? Augmented reality board games.](http://confreaks.tv/videos/railsconf2017-whose-turn-is-it-anyway-augmented-reality-board-games)
+- [Cultivating a Culture of Continuous Learning](http://confreaks.tv/videos/railsconf2017-cultivating-a-culture-of-continuous-learning)
 
 ## Rails
 - [Creating a Rakefile for publishing to Wordpress](http://www.virtuouscode.com/2017/02/28/tuesday25-creating-a-rakefile-for-publishing-to-wordpress/)
