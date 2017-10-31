@@ -26,8 +26,8 @@ Add an item on top (newest first). Feel free to create sections as needed. We ha
 - [Unit Test vs Integration Test](https://medium.com/humans-create-software/unit-tests-vs-integration-tests-d6358982a03e)
 - [Code smell & Refacoring by Sandy Metz](https://www.youtube.com/watch?v=D4auWwMsEnY)
 - [Magic tricks of testing by Sandy Metz](https://www.youtube.com/watch?v=URSWYvyc42M)
-### Not Watched
 - [Does programmers needs to be nice?](https://www.youtube.com/watch?v=J9OpTNk0hYc)
+### Not Watched
 - [ReactJS Facebook Licensing](https://www.youtube.com/watch?v=hnHsZQ1JDII)
 - [Whose turn is it anyway? Augmented reality board games.](http://confreaks.tv/videos/railsconf2017-whose-turn-is-it-anyway-augmented-reality-board-games)
 - [Cultivating a Culture of Continuous Learning](http://confreaks.tv/videos/railsconf2017-cultivating-a-culture-of-continuous-learning)
