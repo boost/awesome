@@ -28,8 +28,8 @@ Add an item on top (newest first). Feel free to create sections as needed. We ha
 - [Magic tricks of testing by Sandy Metz](https://www.youtube.com/watch?v=URSWYvyc42M)
 - [Does programmers needs to be nice?](https://www.youtube.com/watch?v=J9OpTNk0hYc)
 - [ReactJS Facebook Licensing](https://www.youtube.com/watch?v=hnHsZQ1JDII)
-### Not Watched
 - [Cultivating a Culture of Continuous Learning](http://confreaks.tv/videos/railsconf2017-cultivating-a-culture-of-continuous-learning)
+### Not Watched
 - [Rubber Duck](https://www.youtube.com/watch?v=huOPVqztPdc)
 - [Whose turn is it anyway? Augmented reality board games.](http://confreaks.tv/videos/railsconf2017-whose-turn-is-it-anyway-augmented-reality-board-games)
 - [Composition by James Dabbs](https://www.youtube.com/watch?v=zwo7ZTHS8Wg)
