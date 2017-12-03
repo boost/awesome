@@ -1,1 +1,1 @@
-[The Magic Tricks of Testing by Sandi Metz](http://jnoconor.github.io/blog/2013/10/07/the-magic-tricks-of-testing-by-sandi-metz/)
+[How to create a Slack Application](https://medium.com/@MVaragnat/how-to-build-a-slack-app-5b83d71e083a)
