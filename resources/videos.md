@@ -32,8 +32,9 @@ Add an item on top (newest first). Feel free to create sections as needed. We ha
 - [Rules by Sandi Metz](https://www.youtube.com/watch?v=npOGOmkxuio)
 - [Writing Software Well by DHH](https://www.youtube.com/watch?v=H5i1gdwe1Ls)
 - [Javascript the Good Parts](https://www.youtube.com/watch?v=hQVTIJBZook)
-### Not Watched
 - [The Post JavaScript Apocalypse](https://www.youtube.com/watch?v=99Zacm7SsWQ)
+### Not Watched
+- [Understanding AWS Route 53](https://www.youtube.com/watch?v=AAq-DDbFiIE)
 - [Rubber Duck](https://www.youtube.com/watch?v=huOPVqztPdc)
 - [Whose turn is it anyway? Augmented reality board games.](http://confreaks.tv/videos/railsconf2017-whose-turn-is-it-anyway-augmented-reality-board-games)
 - [Composition by James Dabbs](https://www.youtube.com/watch?v=zwo7ZTHS8Wg)
