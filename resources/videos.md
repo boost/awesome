@@ -33,6 +33,7 @@ Add an item on top (newest first). Feel free to create sections as needed. We ha
 - [Writing Software Well by DHH](https://www.youtube.com/watch?v=H5i1gdwe1Ls)
 - [Javascript the Good Parts](https://www.youtube.com/watch?v=hQVTIJBZook)
 - [The Post JavaScript Apocalypse](https://www.youtube.com/watch?v=99Zacm7SsWQ)
+- [Rails SOLID Design Principles](https://www.youtube.com/watch?v=8STtzjyDTTQ)
 ### Not Watched
 - [Understanding AWS Route 53](https://www.youtube.com/watch?v=AAq-DDbFiIE).
   Good explanation of how DNS works
