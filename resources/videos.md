@@ -34,9 +34,9 @@ Add an item on top (newest first). Feel free to create sections as needed. We ha
 - [Javascript the Good Parts](https://www.youtube.com/watch?v=hQVTIJBZook)
 - [The Post JavaScript Apocalypse](https://www.youtube.com/watch?v=99Zacm7SsWQ)
 - [Rails SOLID Design Principles](https://www.youtube.com/watch?v=8STtzjyDTTQ)
-### Not Watched
 - [Understanding AWS Route 53](https://www.youtube.com/watch?v=AAq-DDbFiIE).
   Good explanation of how DNS works
+### Not Watched
 - [You're Insufficiently Persuasive by Sandi Metz](https://www.youtube.com/watch?v=VzWLGMtXflg)
 - [Rubber Duck](https://www.youtube.com/watch?v=huOPVqztPdc)
 - [Whose turn is it anyway? Augmented reality board games.](http://confreaks.tv/videos/railsconf2017-whose-turn-is-it-anyway-augmented-reality-board-games)
