@@ -36,9 +36,10 @@ Add an item on top (newest first). Feel free to create sections as needed. We ha
 - [Rails SOLID Design Principles](https://www.youtube.com/watch?v=8STtzjyDTTQ)
 - [Understanding AWS Route 53](https://www.youtube.com/watch?v=AAq-DDbFiIE).
   Good explanation of how DNS works
-### Not Watched
 - [You're Insufficiently Persuasive by Sandi Metz](https://www.youtube.com/watch?v=VzWLGMtXflg)
 - [Rubber Duck](https://www.youtube.com/watch?v=huOPVqztPdc)
+
+### Not Watched
 - [Whose turn is it anyway? Augmented reality board games.](http://confreaks.tv/videos/railsconf2017-whose-turn-is-it-anyway-augmented-reality-board-games)
 - [Composition by James Dabbs](https://www.youtube.com/watch?v=zwo7ZTHS8Wg)
 ## Rails
