@@ -40,7 +40,6 @@ Add an item on top (newest first). Feel free to create sections as needed. We ha
 - [Rubber Duck](https://www.youtube.com/watch?v=huOPVqztPdc)
 
 ### Not Watched
-- [Whose turn is it anyway? Augmented reality board games.](http://confreaks.tv/videos/railsconf2017-whose-turn-is-it-anyway-augmented-reality-board-games)
 - [Composition by James Dabbs](https://www.youtube.com/watch?v=zwo7ZTHS8Wg)
 ## Rails
 - [Creating a Rakefile for publishing to Wordpress](http://www.virtuouscode.com/2017/02/28/tuesday25-creating-a-rakefile-for-publishing-to-wordpress/)
