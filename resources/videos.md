@@ -40,6 +40,7 @@ Add an item on top (newest first). Feel free to create sections as needed. We ha
 - [Rubber Duck](https://www.youtube.com/watch?v=huOPVqztPdc)
 
 ### Not Watched
+- [Why care how your tools work?](https://www.youtube.com/watch?v=i_HA1JPz7X4)
 - [Composition by James Dabbs](https://www.youtube.com/watch?v=zwo7ZTHS8Wg)
 ## Rails
 - [Creating a Rakefile for publishing to Wordpress](http://www.virtuouscode.com/2017/02/28/tuesday25-creating-a-rakefile-for-publishing-to-wordpress/)
