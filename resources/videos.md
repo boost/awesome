@@ -41,6 +41,7 @@ Add an item on top (newest first). Feel free to create sections as needed. We ha
 
 ### Not Watched
 - [Action Text](https://github.com/boost/awesome)
+- [Compacting the GC in Ruby 2.7](https://www.youtube.com/watch?v=H8iWLoarTZc)
 - [Rails 6 and scalability](https://www.youtube.com/watch?v=DQMxvGYyu6Q)
 - [Why care how your tools work?](https://www.youtube.com/watch?v=i_HA1JPz7X4)
 - [Composition by James Dabbs](https://www.youtube.com/watch?v=zwo7ZTHS8Wg)
