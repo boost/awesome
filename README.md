@@ -5,7 +5,7 @@
 This is a list of things to prefer and avoid in projects. These practices are a result of trials-and-errors across many [Boost] projects. We've learned what works and what doesn't, and these are the lessons that stuck.
 
 - [General practices](practices/) - ethics, new projects
-- [Design](practices/design.md) - UI design and CSS
+- [Styles](practices/design.md) - UI and CSS
 - [Git](practices/git.md) - Git and GitHub
 - [JavaScript](practices/javascript.md) - Frontend and Node.js code
 - [Rails](practices/rails.md) - Makes the world go 'round
