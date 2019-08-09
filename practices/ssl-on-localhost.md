@@ -71,7 +71,11 @@ Now if you refresh your rails view everything should work as expected.
 
 ### 6. Get the secret party started
 Now, you can run your rails server with ssl:
-`ENV['SSL']=true rails s`
+
+`ENV['SSL']=true`
+and visit https://localhost:3000
+
+Note: it won't redirect automatically from http.
 
 You can still run it normally too, without ssl, but why would you?:  `rails s`
 
@@ -80,3 +84,6 @@ Note that webpack will always run over https now, but that's fine.
 ### 7. Maybe imgaes don't load?
 If you are setting a global `HOST` variable in developement.rb, you might need to conditinally make it https if the ssl env is present:
 `HOST = "http#{ENV['SSL'] ? 's' : ''}://localhost:3000"`
+
+### 8. Don't force it
+What ever you do, don't put `config.force_ssl = true` in to your development file, as it will force all your other projects to be https, which might suck.
