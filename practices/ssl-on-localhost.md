@@ -2,19 +2,19 @@
 
 So, you want to use ssl in development mode huh?  Good for you jack.  It's like a secret party on your machine.
 
-The benefits of this mostly encompass mimicking prodcution as closeley as possible. You can enforce the content security policy locally, which is great for tesiting front end changes.
+The benefits of this mostly encompass mimicking production as closely as possible. For example, you can enforce the content security policy locally, which is great for tesiting front end changes before you go and break production.
 
 Steps:
 
-### 1. Generate an ssl certificate for localhost
-Make a directlryo in your config folder called ssl, and cd in to it:
+### 1. Generate a certificate and key for the localhost domain
+Make a directory in your rails app config folder called ssl, and cd in to it:
 ```
 mkdir -p config/ssl
 cd config/ssl
 
 ```
 
-Then generate the certificates. This command generates an ssl that covers all domains accessed on https://localhost
+Then generate the certificate and key. This command does the magic business with a certificate that covers all domains accessed on https://localhost
 ```
 openssl req -x509 -out localhost.crt -keyout localhost.key \
   -newkey rsa:2048 -nodes -sha256 \
@@ -24,13 +24,15 @@ openssl req -x509 -out localhost.crt -keyout localhost.key \
 
 
 ### 2. Update the .gitignore file to ignore this folder
+Because it's a secret party, and github is not invited.
+
 `/config/ssl/*`
 
 ### 3 Tell your computer to trust the new certificate:
 trust the cert:
 ```
 cd config/ssl
-sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain config/ssl/localhost.crt
+sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain localhost.crt && say I trust you
 ```
 
 ### 3. Instruct puma to do your bidding
@@ -46,12 +48,12 @@ if ENV['SSL']
     cert: 'config/ssl/localhost.crt'
   }
 else
-  port        ENV.fetch("PORT") { 3000 }
+  port ENV.fetch("PORT") { 3000 }
 end
 ```
 
 ### 4. Run your content security policy in development
-In your content_security_policy.rb file, you do this:
+In your content_security_policy.rb file, you can now do something like this:
 `unless Rails.env.test? || (Rails.env.development? && ENV['SSL'].blank?)` or what ever suits your environment.
 
 
@@ -69,7 +71,7 @@ Now if you refresh your rails view everything should work as expected.
 
 ### 6. Get the secret party started
 Now, you can run your rails server with ssl:
-`ENV['SSL'] = true`
+`ENV['SSL']=true rails s`
 
 You can still run it normally too, without ssl, but why would you?:  `rails s`
 
