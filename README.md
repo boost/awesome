@@ -5,12 +5,12 @@
 This is a list of things to prefer and avoid in projects. These practices are a result of trials-and-errors across many [Boost] projects. We've learned what works and what doesn't, and these are the lessons that stuck.
 
 - [General practices](practices/) - ethics, new projects
-- [Styles](practices/design.md) - UI and CSS
 - [Git](practices/git.md) - Git and GitHub
+- [iOS](practices/ios.md) - Xcode Swift development
 - [JavaScript](practices/javascript.md) - Frontend and Node.js code
 - [Rails](practices/rails.md) - Makes the world go 'round
+- [Styles](practices/design.md) - UI and CSS
 - [Testing](practices/testing.md) - Detailed Rspec and TDD practices
-- [iOS](practices/ios.md) - Xcode Swift development
 - [Web Accessibility](practices/web-accessibility.md) - Web Accessibility
 
 ----
