@@ -1,4 +1,4 @@
-![Boost Logo](https://raw.githubusercontent.com/boost/awesome/master/logo.png)
+![Boost Logo](https://raw.githubusercontent.com/boost/awesome/master/images/logo.png)
 # :thumbsup: Awesome
 
 ### Our practices
@@ -19,24 +19,25 @@ This is a list of things to prefer and avoid in projects. These practices are a 
 Guides on setting up common development environments.
 
 - [Android on OSX](workflow/android-osx.md)
-- [Heroku](workflow/heroku.md)
-- [Rails on OSX](workflow/rails-osx.md)
-- [iOS](workflow/ios.md)
-- [Rails on Ubuntu 14.04](workflow/rails-ubuntu1404.md)
-- [Digital Ocean](workflow/digitalocean.md)
-- [Vagrant](workflow/vagrant.md)
-- [Docker](workflow/docker.md)
-- [Chef](workflow/chef.md)
 - [Bluemix](workflow/bluemix.md)
+- [Chef](workflow/chef.md)
+- [Digital Ocean](workflow/digitalocean.md)
+- [Docker](workflow/docker.md)
+- [Heroku](workflow/heroku.md)
+- [Ionic](workflow/ionic.md)
+- [iOS](workflow/ios.md)
+- [Rails on OSX](workflow/rails-osx.md)
+- [Rails on Ubuntu 14.04](workflow/rails-ubuntu1404.md)
+- [Vagrant](workflow/vagrant.md)
 
 ----
 
 ### Resources
 Books, articles, blogs and videos
 
-- [Books](resources/books.md)
 - [Articles](resources/articles.md)
 - [Blog](resources/blog.md)
+- [Books](resources/books.md)
 - [Videos](resources/videos.md)
 
 
