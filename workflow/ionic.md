@@ -1,6 +1,6 @@
 ## Icon & Splashscreen
 
-This is a guide for designers for generating icon & splashscreen images. Icon is required to be uploaded to both AppleStore via apple connect, GoolePlay for android and also added to Ionic project. The below are the dimensions for these.
+This is a guide for designers for generating icon & splashscreen images. Icon is required to be uploaded to both AppleStore via apple connect, GoolePlay for android and also added to Ionic project. The below are the dimensions for these. PNG is the prefere image format.
 
 ```
 Google Play:  512x512
