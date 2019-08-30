@@ -40,6 +40,8 @@ Books, articles, blogs and videos
 - [Books](resources/books.md)
 - [Videos](resources/videos.md)
 
+----
+
 ### Tips & Tricks
 - [Perfect poached eggs](https://raw.githubusercontent.com/boost/awesome/master/images/how%20to%20cook%20an%20egg.png)
 
