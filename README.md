@@ -43,7 +43,7 @@ Books, articles, blogs and videos
 ----
 
 ### Tips & Tricks
-- [Perfect poached eggs](https://raw.githubusercontent.com/boost/awesome/master/images/how%20to%20cook%20an%20egg.png)
+- [Perfect poached eggs](https://raw.githubusercontent.com/boost/awesome/master/images/how%20to%20cook%20an%20egg.png) :egg:
 
 
 [Boost]: http://boost.co.nz
