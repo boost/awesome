@@ -16,6 +16,10 @@ Add an item on top (newest first). Feel free to create sections as needed. We ha
 ## Ruby
 - [Build a Ruby Gem](http://brandonhilkert.com/books/build-a-ruby-gem/)
 
+## Flutter
+- [Learn Flutter & Dart to Build iOS & Android Apps](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/)
+
+
 ## LearnTube Videos
 ### Watched
 - [Rails Stuff by Aaron Patterson](https://www.youtube.com/watch?v=JMGmaRZtgM8)
