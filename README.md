@@ -25,6 +25,7 @@ Guides on setting up common development environments.
 - [Docker](workflow/docker.md)
 - [Heroku](workflow/heroku.md)
 - [Ionic](workflow/ionic.md)
+- [Flutter](workflow/ios.md)
 - [iOS](workflow/ios.md)
 - [Rails on OSX](workflow/rails-osx.md)
 - [Rails on Ubuntu 14.04](workflow/rails-ubuntu1404.md)
