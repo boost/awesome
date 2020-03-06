@@ -72,7 +72,7 @@ Now if you refresh your rails view everything should work as expected.
 ### 6. Get the secret party started
 Now, you can run your rails server with ssl:
 
-`ENV['SSL']=true`
+`SSL=true`
 and visit https://localhost:3000
 
 Note: it won't redirect automatically from http.
