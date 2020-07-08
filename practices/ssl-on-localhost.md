@@ -81,6 +81,8 @@ You can still run it normally too, without ssl, but why would you?:  `rails s`
 
 Note that webpack will always run over https now, but that's fine.
 
+If it doesn't work, check this out: https://github.com/puma/puma/issues/1670
+
 ### 7. Maybe imgaes don't load?
 If you are setting a global `HOST` variable in developement.rb, you might need to conditinally make it https if the ssl env is present:
 `HOST = "http#{ENV['SSL'] ? 's' : ''}://localhost:3000"`
