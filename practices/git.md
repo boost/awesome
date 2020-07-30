@@ -31,23 +31,38 @@ Depending on your project, you can use official gitignore [templates](https://gi
 
 ## Commit messages
 
+#### How to write a commit message
+Follow semantic commit guide lines in [conventionalcommits.org](https://www.conventionalcommits.org/en/v1.0.0/) & [karma runner](http://karma-runner.github.io/1.0/dev/git-commit-msg.html).
+
+#### Commit template setup
 Use the template below for our commit messages. To create a global template for your machine:
 
 - Create a file called `.gitmessage` under `~/` path.
 - Paste the code below and save it
 
 ```
-# 50-character subject line
-#
-# 72-character wrapped longer description.
-#
-# Example:
-#
-# Good - imperative present tense, capitalized, fewer than 50 characters
-# Mark huge records as obsolete when clearing hinting faults
-#
-# Bad
-# fixed ActiveModel::Errors deprecation messages failing when AR was used outside of Rails.
+type(context): title
+
+description body
+
+references (Optional)
+
+# Allowed <type> values:
+# feat (new feature for the user, not a new feature for build script)
+# fix (bug fix for the user, not a fix to a build script)
+# docs (changes to the documentation)
+# style (formatting, missing semi colons, etc; no production code change)
+# refactor (refactoring production code, eg. renaming a variable)
+# test (adding missing tests, refactoring tests; no production code change)
+# chore (updating grunt tasks etc; no production code change)
+
+# Example
+
+# fix(Airbreak failure): Downgrade to airbrake v9
+
+# Airbreak v9 wasnt working well with Rails 3.2 and was throwing errors when trying to report errors :D
+
+# Swifter Bug id #1191
 ```
 
 - Update your global `~/.gitconfig` file by adding:
