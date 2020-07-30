@@ -71,3 +71,28 @@ references (Optional)
 [commit]
   template = ~/.gitmessage
 ```
+
+#### To enforce this on your project
+
+Edit `.git/hooks/commit-msg.sample` in the project. Paste the below code in it. And remane it to be just `commit-msg`, ie remove `.sample` from the filename. This will validate validate if the commit has `type(context): title` bit on every commit.
+
+
+```
+#!/bin/bash
+
+MSG_FILE=$1
+FILE_CONTENT="$(cat $MSG_FILE)"
+
+export REGEX='^((feat|fix|docs|style|refactor|test|chore)(\(.*\)|!)?: .*)|(Merge pull .*)'
+export ERROR_MSG="Commit message should follow sematic commit template"
+
+if [[ $FILE_CONTENT =~ $REGEX ]]; then
+ echo "Boost awesome commit!"
+else
+  echo "\"$FILE_CONTENT\" - is a bad commit message. Please follow Boost best practices."
+ echo $ERROR_MSG
+ exit 1
+fi
+
+exit 0
+```
