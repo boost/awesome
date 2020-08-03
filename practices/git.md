@@ -27,7 +27,7 @@ Depending on your project, you can use official gitignore [templates](https://gi
 
 ## Style guide
 
-- [Agis Git Stlyeguide](https://github.com/agis-/git-style-guide)
+- [conventionalcommit.org Stlyeguide](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ## Commit messages
 
