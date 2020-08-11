@@ -74,7 +74,7 @@ references (Optional)
 
 #### To enforce this on your project
 
-Edit `.git/hooks/commit-msg.sample` in the project. Paste the below code in it. And remane it to be just `commit-msg`, ie remove `.sample` from the filename. This will validate validate if the commit has `type(context): title` bit on every commit.
+Edit `.git/hooks/commit-msg.sample` in the project. Paste the below code in it. And rename it to be just `commit-msg`, ie remove `.sample` from the filename. This will validate validate if the commit has `type(context): title` bit on every commit.
 
 
 ```
