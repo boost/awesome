@@ -28,6 +28,34 @@ Use flutter_launcher_icons as a devDependency to setup launch icons and include 
 ```flutter pub get```
 ```flutter pub run flutter_launcher_icons:main -f <your config file name here>```
 
+#### Deployment for Android
+
+There's some good documentation here, essentially follow the steps. One thing worth doing is to add the key.properties to the .gitignore file.
+https://flutter.dev/docs/deployment/android
+
+1. Create a key store with
+
+`keytool -genkey -v -keystore ~/key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias key`
+
+2. Create a file named <app dir>/android/key.properties that contains a reference to your keystore:
+
+```
+storePassword=<password from previous step>
+keyPassword=<password from previous step>
+keyAlias=key
+storeFile=< location of the key store file, such as /Users/<user name>/key.jks >
+```
+
+I've added the keystore password I used in 1password under 'Boosted Android Keystore Password'
+
+After you've completed 'Configure signing in gradle' step in the guide then you can build the app for android with `flutter build appbundle` 
+
+Now you can go to the Google Play Console and create the app release and upload the built release file.
+
+Now you need to fill in all the sections required before you can publish the app to the app store.
+
+You'll need a few screenshots among other things before the app can be released onto the play store.
+
 #### Release Preparation for ios
 
 Ensure all permissions are setup correctly in ios/Runner/Info.plist ( No specific permission required for internet access ).
@@ -38,8 +66,8 @@ Under Targets, set the Display Name of the app e.g Boosted. Also set the bundle 
 
 For ios go to Runner/Assets.xcassets and drag the icon into all 3 slots of the LaunchImage. You can preview in the LaunchScreen.storyboard file.
 
-#### Deployment for Android
+#### Deployment for ios
 
 There's some good documentation here, essentially follow the steps.
-https://flutter.dev/docs/deployment/android
+https://flutter.dev/docs/deployment/ios
 
