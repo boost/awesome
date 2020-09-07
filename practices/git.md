@@ -48,13 +48,15 @@ description body
 references (Optional)
 
 # Allowed <type> values:
-# feat (new feature for the user, not a new feature for build script)
-# fix (bug fix for the user, not a fix to a build script)
-# docs (changes to the documentation)
-# style (formatting, missing semi colons, etc; no production code change)
+# feat     (new feature for the user, not a new feature for build script)
+# fix      (bug fix for the user, not a fix to a build script)
+# docs     (changes to the documentation)
+# style    (formatting, missing semi colons, etc; no production code change)
 # refactor (refactoring production code, eg. renaming a variable)
-# test (adding missing tests, refactoring tests; no production code change)
-# chore (updating grunt tasks etc; no production code change)
+# test     (adding missing tests, refactoring tests; no production code change)
+# chore    (updating grunt tasks etc; no production code change)
+# conf     (configuration, env changes)
+# temp     (Any temporary update that you might revert later)
 
 # Example
 
@@ -83,7 +85,7 @@ Edit `.git/hooks/commit-msg.sample` in the project. Paste the below code in it. 
 MSG_FILE=$1
 FILE_CONTENT="$(cat $MSG_FILE)"
 
-export REGEX='^((feat|fix|docs|style|refactor|test|chore)(\(.*\)|!)?: .*)|(Merge pull .*)'
+export REGEX='^((feat|fix|docs|style|refactor|test|chore|conf|temp)(\(.*\)|!)?: .*)|(Merge pull .*)'
 export ERROR_MSG="Commit message should follow sematic commit template"
 
 if [[ $FILE_CONTENT =~ $REGEX ]]; then
