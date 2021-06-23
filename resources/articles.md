@@ -10,3 +10,7 @@ Add an item on top (newest first). Feel free to create sections as needed.
 
 ## Rails
 - [Autocomplete](http://www.lugolabs.com/articles/20-jquery-ui-autocomplete-with-ruby-on-rails)
+
+## Java
+- [Java Heap settings best practice](https://support.cloudbees.com/hc/en-us/articles/204859670-Java-Heap-settings-best-practice)
+- [Java heap settings](https://blog.gceasy.io/2020/11/05/difference-between-initialrampercentage-minrampercentage-maxrampercentage)
