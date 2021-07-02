@@ -57,6 +57,7 @@ references (Optional)
 # chore    (updating grunt tasks etc; no production code change)
 # conf     (configuration, env changes)
 # temp     (Any temporary update that you might revert later)
+# upgrade  (upgrading libraries/dependancies)
 
 # Example
 
@@ -85,7 +86,7 @@ Edit `.git/hooks/commit-msg.sample` in the project. Paste the below code in it. 
 MSG_FILE=$1
 FILE_CONTENT="$(cat $MSG_FILE)"
 
-export REGEX='^((feat|fix|docs|style|refactor|test|chore|conf|temp)(\(.*\)|!)?: .*)|(Merge pull .*)'
+export REGEX='^((feat|fix|docs|style|refactor|test|chore|conf|temp|upgrade)(\(.*\)|!)?: .*)|(Merge pull .*)'
 export ERROR_MSG="Commit message should follow sematic commit template"
 
 if [[ $FILE_CONTENT =~ $REGEX ]]; then
